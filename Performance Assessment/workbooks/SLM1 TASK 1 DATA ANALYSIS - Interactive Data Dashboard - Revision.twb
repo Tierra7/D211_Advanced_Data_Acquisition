@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
-<!-- build 20204.21.0710.1009                               -->
-<workbook original-version='18.1' source-build='2020.4.7 (20204.21.0710.1009)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<!-- build 20204.21.0818.1952                               -->
+<workbook original-version='18.1' source-build='2020.4.8 (20204.21.0818.1952)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <IntuitiveSorting />
@@ -936,11 +936,11 @@
         </groupfilter>
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/vreed/Documents/My Tableau Repository/Datasources/churn_prepared_d211.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/04/2021 12:23:49 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/vreed/Documents/My Tableau Repository/Datasources/churn_prepared_d211.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='08/30/2021 10:57:52 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <refresh increment-key='' incremental-updates='false'>
-            <refresh-event add-from-file-path='churn_prepared' increment-value='%null%' refresh-type='create' rows-inserted='10000' timestamp-start='2021-10-04 12:23:49.872' />
+            <refresh-event add-from-file-path='churn_prepared' increment-value='%null%' refresh-type='create' rows-inserted='10000' timestamp-start='2021-08-30 22:57:52.910' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -955,6 +955,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>10000</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>City</remote-name>
@@ -969,6 +970,7 @@
               <approx-count>3456</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>State</remote-name>
@@ -983,6 +985,7 @@
               <approx-count>56</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>County</remote-name>
@@ -997,6 +1000,7 @@
               <approx-count>1454</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Zip</remote-name>
@@ -1010,6 +1014,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5820</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Lat</remote-name>
@@ -1023,6 +1028,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5820</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Lng</remote-name>
@@ -1036,6 +1042,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>5715</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Population</remote-name>
@@ -1049,6 +1056,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>3602</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Area</remote-name>
@@ -1063,6 +1071,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>TimeZone</remote-name>
@@ -1077,6 +1086,7 @@
               <approx-count>18</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Job</remote-name>
@@ -1091,6 +1101,7 @@
               <approx-count>938</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Children</remote-name>
@@ -1104,6 +1115,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>11</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Age</remote-name>
@@ -1117,6 +1129,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>72</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Income</remote-name>
@@ -1130,6 +1143,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>10000</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Marital</remote-name>
@@ -1144,6 +1158,7 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Gender</remote-name>
@@ -1158,6 +1173,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Churn</remote-name>
@@ -1172,6 +1188,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Outage_sec_perweek</remote-name>
@@ -1185,6 +1202,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>9601</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Email</remote-name>
@@ -1198,6 +1216,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>25</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Contacts</remote-name>
@@ -1211,6 +1230,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Yearly_equip_failure</remote-name>
@@ -1224,6 +1244,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Techie</remote-name>
@@ -1238,6 +1259,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Contract</remote-name>
@@ -1252,6 +1274,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Port_modem</remote-name>
@@ -1266,6 +1289,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Tablet</remote-name>
@@ -1280,6 +1304,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>InternetService</remote-name>
@@ -1294,6 +1319,7 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Phone</remote-name>
@@ -1308,6 +1334,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Multiple</remote-name>
@@ -1322,6 +1349,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>OnlineSecurity</remote-name>
@@ -1336,6 +1364,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>OnlineBackup</remote-name>
@@ -1350,6 +1379,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>DeviceProtection</remote-name>
@@ -1364,6 +1394,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>TechSupport</remote-name>
@@ -1378,6 +1409,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>StreamingTV</remote-name>
@@ -1392,6 +1424,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>StreamingMovies</remote-name>
@@ -1406,6 +1439,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PaperlessBilling</remote-name>
@@ -1420,6 +1454,7 @@
               <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>PaymentMethod</remote-name>
@@ -1434,6 +1469,7 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Tenure</remote-name>
@@ -1447,6 +1483,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>10000</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>MonthlyCharge</remote-name>
@@ -1460,6 +1497,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1024</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Bandwidth_GB_Year</remote-name>
@@ -1473,6 +1511,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>10000</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Timely response</remote-name>
@@ -1486,6 +1525,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Timely fixes</remote-name>
@@ -1499,6 +1539,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Timely replacements</remote-name>
@@ -1512,6 +1553,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Reliability</remote-name>
@@ -1525,6 +1567,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Options</remote-name>
@@ -1538,6 +1581,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Respectful response</remote-name>
@@ -1551,6 +1595,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Courteous exchange</remote-name>
@@ -1564,6 +1609,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Evidence of active listening</remote-name>
@@ -1577,6 +1623,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>8</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[churn_prepared.csv_88AB0DDA7DCC4B23A5A8CC64B2C69AD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -3121,7 +3168,7 @@
       <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
       <column caption='Tenure' datatype='integer' name='[tenure]' role='measure' type='quantitative' />
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/vreed/Documents/My Tableau Repository/Datasources/WA_Fn-UseC_-Telco-Customer-Churn+.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/04/2021 12:24:37 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/vreed/Documents/My Tableau Repository/Datasources/WA_Fn-UseC_-Telco-Customer-Churn+.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='10/04/2021 12:37:46 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='WA_Fn-UseC_-Telco-Customer-Churn.csv_C737664882944FF79A9F0FCF717DA7B5' table='[Extract].[WA_Fn-UseC_-Telco-Customer-Churn.csv_C737664882944FF79A9F0FCF717DA7B5]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
             <relation name='WA_Fn-UseC_-Telco-Customer-Churn.csv_C737664882944FF79A9F0FCF717DA7B5' table='[Extract].[WA_Fn-UseC_-Telco-Customer-Churn.csv_C737664882944FF79A9F0FCF717DA7B5]' type='table' />
@@ -3201,7 +3248,7 @@
             <map key='[tenure]' value='[WA_Fn-UseC_-Telco-Customer-Churn.csv_C737664882944FF79A9F0FCF717DA7B5].[tenure]' />
           </cols>
           <refresh increment-key='' incremental-updates='false'>
-            <refresh-event add-from-file-path='WA_Fn-UseC_-Telco-Customer-Churn+' increment-value='%null%' refresh-type='create' rows-inserted='17043' timestamp-start='2021-10-04 12:24:37.935' />
+            <refresh-event add-from-file-path='WA_Fn-UseC_-Telco-Customer-Churn+' increment-value='%null%' refresh-type='create' rows-inserted='17043' timestamp-start='2021-10-04 12:37:46.434' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
